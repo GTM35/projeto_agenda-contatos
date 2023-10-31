@@ -1,0 +1,103 @@
+/* 
+
+font-family: 'Dancing Script', cursive;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 20vh;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Dancing Script", cursive;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+main {
+  height: fit-content;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  border: 2px solid #bbb;
+  padding: 50px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+form label {
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input {
+  margin-bottom: 20px;
+  height: 25px;
+  padding: 5px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  outline-color: #ccc;
+  font-size: 0.8rem;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+}
+
+form button:hover {
+  border: 2px solid #bbb;
+  font-size: 1.4rem;
+}
+
+table {
+  border: 2px solid #bbb;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+table tr td,
+table tr th {
+  padding-right: 10px;
+}
+
+table thead tr th {
+  padding-bottom: 5px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+table tbody tr td {
+  padding-bottom: 5px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #bbb;
+}
